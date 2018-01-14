@@ -1,0 +1,13 @@
+<!-- Sidebar -->
+<div class="row">
+  <div class="sidenav list-group col-md-4">
+    <a [routerLink]="['/datatable']" routerLinkActive="active" class="list-group-item">Data Table</a>
+    <a [routerLink]="['/about']" routerLinkActive="active" class="list-group-item">About</a>
+    <a [routerLink]="['/services']" routerLinkActive="active" class="list-group-item">Services</a>
+    <a [routerLink]="['/clients']" routerLinkActive="active" class="list-group-item">Clients</a>
+    <a [routerLink]="['/contact']" routerLinkActive="active" class="list-group-item">Contact</a>
+  </div>
+  <div class="col-md-offset-1 col-md-8">
+    <router-outlet></router-outlet>
+  </div>
+</div>
